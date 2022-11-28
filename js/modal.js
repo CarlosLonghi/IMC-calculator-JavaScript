@@ -12,7 +12,7 @@ export const Modal = {
   }
 }
 
-// Arrow function em apenas 1 linha não necessita de {}
+// Arrow function utilizando apenas 1 linha não necessita de {}
 Modal.buttonClose.onclick = () => Modal.close() //
 
 window.addEventListener('keydown', handleKeydown)
